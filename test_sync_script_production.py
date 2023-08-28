@@ -9,6 +9,10 @@ parser.add_argument( '--testArgumentStr', type=str,
 					help='input any word you want...',
 					default='test argument of production script' )
 
+# assert some error to investigate the behavior when jenkins found error
+if 'string' == 1:
+	print( 'error was found' )
+
 # get argument
 args = parser.parse_args()
 testArgumentStr = args.testArgumentStr
