@@ -12,7 +12,9 @@ if [ -f "$testSyncScriptProductionPath" ]; then
 	echo "Running the Python script: $testSyncScriptProductionPath"
 
 	# run python script
-	python3 "$testSyncScriptProductionPath" --testArgumentStr="argument from bash"
+	python3 "$testSyncScriptProductionPath" --testArgumentStr="1"
+	python3 "$testSyncScriptProductionPath" --testArgumentStr="2"
+	python3 "$testSyncScriptProductionPath" --testArgumentStr="3"
 
 # script was not found
 else
