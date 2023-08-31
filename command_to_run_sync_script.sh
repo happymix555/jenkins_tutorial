@@ -22,5 +22,3 @@ else
 	# inform user
 	echo "Python script not found: $testSyncScriptProductionPath"
 fi
-
-# test push git
