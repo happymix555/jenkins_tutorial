@@ -15,6 +15,7 @@ if [ -f "$testSyncScriptProductionPath" ]; then
 	python3 "$testSyncScriptProductionPath" --testArgumentStr="1"
 	python3 "$testSyncScriptProductionPath" --testArgumentStr="2"
 	python3 "$testSyncScriptProductionPath" --testArgumentStr="3"
+	python3 "$testSyncScriptProductionPath" --testArgumentStr="4"
 
 # script was not found
 else
