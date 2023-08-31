@@ -26,6 +26,9 @@ previousLoopTimeSec = time.time()
 # loop counter
 loopCounterInt = 0
 
+myList = []
+print( myList[ 1 ] )
+
 # loop forever
 while True:
 
