@@ -1,162 +1,300 @@
-<mxfile host="65bd71144e">
-    <diagram id="lxpTp4fASa2v775-ZQ52" name="Page-1">
-        <mxGraphModel dx="1907" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-11" value="" style="group" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="620" y="80" width="330" height="440" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="Kls-efI1VxmwVfYrMtrJ-11" vertex="1">
-                    <mxGeometry width="330" height="440" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-13" value="" style="group" parent="Kls-efI1VxmwVfYrMtrJ-11" vertex="1" connectable="0">
-                    <mxGeometry width="330" height="323.5294117647059" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-14" value="Jenkins project" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Kls-efI1VxmwVfYrMtrJ-13" vertex="1">
-                    <mxGeometry width="100" height="32.35294117647059" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="Kls-efI1VxmwVfYrMtrJ-11" vertex="1">
-                    <mxGeometry x="27.5" y="42.5" width="275" height="330" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-17" value="Git repo branch &quot;jenkin&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Kls-efI1VxmwVfYrMtrJ-11" vertex="1">
-                    <mxGeometry x="27.5" y="40" width="130" height="25" as="geometry"/>
-                </mxCell>
-                <mxCell id="16" value="sync script" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="Kls-efI1VxmwVfYrMtrJ-11">
-                    <mxGeometry x="42.639999999999986" y="92.49551282051289" width="244.72" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="17" value="config file 1 (periodically)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Kls-efI1VxmwVfYrMtrJ-11">
-                    <mxGeometry x="42.639999999999986" y="162.4955128205129" width="244.72" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="18" value="config file 2 (new deployment)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="Kls-efI1VxmwVfYrMtrJ-11">
-                    <mxGeometry x="42.639999999999986" y="232.4955128205129" width="244.72" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="19" value="bash_script" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="Kls-efI1VxmwVfYrMtrJ-11">
-                    <mxGeometry x="42.639999999999986" y="302.4955128205129" width="244.72" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-22" value="&lt;h1&gt;Deployment steps&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1100" y="80" width="260" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-23" target="Kls-efI1VxmwVfYrMtrJ-24" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-23" value="Developer edit sync_script in personal branch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1070" y="140" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-24" target="Kls-efI1VxmwVfYrMtrJ-28" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-24" value="Developer edit config_file in personal branch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1070" y="235" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-25" target="Kls-efI1VxmwVfYrMtrJ-26" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-25" value="Developer push sync_script, config_file and bash_script to issue branch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1050" y="420" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-26" target="Kls-efI1VxmwVfYrMtrJ-27" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-26" value="Developer merge issue branch to master branch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1070" y="520" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-27" target="Kls-efI1VxmwVfYrMtrJ-29" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="1220" y="650"/>
-                            <mxPoint x="1220" y="120"/>
-                            <mxPoint x="1310" y="120"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-27" value="Developer merge master branch to jenkin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1070" y="620" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-28" target="Kls-efI1VxmwVfYrMtrJ-25" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-28" value="Developer edit bash script to specify how sync_script will be ran" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1070" y="330" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-29" target="Kls-efI1VxmwVfYrMtrJ-30" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-29" value="Developer trigger Jenkins build to run sync_script" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1250" y="140" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-30" target="Kls-efI1VxmwVfYrMtrJ-31" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-30" value="Sysadmins change alias to track new index according to config_file in jenkin branch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1245" y="235" width="130" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-31" value="Developer merge master branch to live branch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1250" y="330" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-33" target="Kls-efI1VxmwVfYrMtrJ-31" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-33" value="At this point cron is going to run the new sync_script and use the new config_file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1440" y="320" width="130" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-60" y="85" width="290" height="335" as="geometry"/>
-                </mxCell>
-                <mxCell id="3" value="Git repo branch master" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="-60" y="85" width="130" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="4" value="sync script" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-37.360000000000014" y="119.99551282051283" width="244.72" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="5" value="config file 1 (periodically)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-37.360000000000014" y="189.99551282051283" width="244.72" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="6" value="config file 2 (new deployment)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-37.360000000000014" y="259.99551282051283" width="244.72" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="7" value="bash_script" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-37.360000000000014" y="329.99551282051283" width="244.72" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="288" y="80" width="275" height="340" as="geometry"/>
-                </mxCell>
-                <mxCell id="Kls-efI1VxmwVfYrMtrJ-5" value="Git repo branch &quot;live&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="288" y="80" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="9" value="sync script" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-                    <mxGeometry x="303.14" y="119.99551282051283" width="244.72" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="10" value="config file 1 (periodically)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-                    <mxGeometry x="303" y="189.99551282051283" width="244.72" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="11" value="config file 2 (new deployment)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="303.14" y="259.99551282051283" width="244.72" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="12" value="bash_script" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="303.14" y="329.99551282051283" width="244.72" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="20" target="Kls-efI1VxmwVfYrMtrJ-3">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="20" value="&lt;h1&gt;CRON&lt;/h1&gt;&lt;div&gt;- cron is going to track this branch and periodically run the sync script&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="390" y="-140" width="190" height="120" as="geometry"/>
-                </mxCell>
-                <mxCell id="23" style="edgeStyle=none;html=1;" edge="1" parent="1" source="22">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="790" y="80" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="22" value="&lt;h1&gt;OpenSearch's Devloper&lt;/h1&gt;&lt;div&gt;- OpenSearch's Developer is going to merge the newly edited sync script to &quot;jenkins&quot; branch and trigger &quot;build&quot; to sync new data to the new index&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="-140" width="300" height="120" as="geometry"/>
-                </mxCell>
-                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="2">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="24" value="&lt;h1&gt;Git's Master branch&lt;/h1&gt;&lt;div&gt;- Git's Master branch is going to be our storage for sync script, index configuration file and shell script&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Script in this branch is NOT going to be ran by anyone or anything&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="-180" width="250" height="180" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
+<mxfile host="app.diagrams.net" modified="2023-09-11T06:42:18.068Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="yoAAi4luv0rl_DqJMs-1" version="21.7.2" type="device">
+  <diagram id="lxpTp4fASa2v775-ZQ52" name="Page-1">
+    <mxGraphModel dx="3209" dy="1944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1xihCM4wnusQLGO7UBi--27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="250" width="260" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="JCuEOALwNfmfZIqpV4wx-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="-790" y="-1070" width="1780" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-11" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-30" y="-650" width="330" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="Kls-efI1VxmwVfYrMtrJ-11" vertex="1">
+          <mxGeometry width="330" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-13" value="" style="group" parent="Kls-efI1VxmwVfYrMtrJ-11" vertex="1" connectable="0">
+          <mxGeometry width="330" height="323.5294117647059" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-14" value="Jenkins project" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Kls-efI1VxmwVfYrMtrJ-13" vertex="1">
+          <mxGeometry width="100" height="32.35294117647059" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="Kls-efI1VxmwVfYrMtrJ-11" vertex="1">
+          <mxGeometry x="27.5" y="42.5" width="275" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-17" value="Git repo branch &quot;jenkin&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Kls-efI1VxmwVfYrMtrJ-11" vertex="1">
+          <mxGeometry x="27.5" y="40" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="sync script" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="Kls-efI1VxmwVfYrMtrJ-11" vertex="1">
+          <mxGeometry x="42.639999999999986" y="92.49551282051289" width="244.72" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="config file 1 (periodically)" style="rounded=0;whiteSpace=wrap;html=1;" parent="Kls-efI1VxmwVfYrMtrJ-11" vertex="1">
+          <mxGeometry x="42.639999999999986" y="162.4955128205129" width="244.72" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="config file 2 (new deployment)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="Kls-efI1VxmwVfYrMtrJ-11" vertex="1">
+          <mxGeometry x="42.639999999999986" y="232.4955128205129" width="244.72" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="bash_script" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="Kls-efI1VxmwVfYrMtrJ-11" vertex="1">
+          <mxGeometry x="42.639999999999986" y="302.4955128205129" width="244.72" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-22" value="&lt;h1&gt;Deployment steps&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="-650" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-23" target="Kls-efI1VxmwVfYrMtrJ-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-23" value="Developer edit sync_script in personal branch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="-590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-24" target="Kls-efI1VxmwVfYrMtrJ-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-24" value="Developer edit config_file in personal branch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="-495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-25" target="Kls-efI1VxmwVfYrMtrJ-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-25" value="Developer push sync_script, config_file and bash_script to issue branch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="-310" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-26" target="Kls-efI1VxmwVfYrMtrJ-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-26" value="Developer merge issue branch to master branch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="-210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-27" target="Kls-efI1VxmwVfYrMtrJ-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="-80" />
+              <mxPoint x="570" y="-610" />
+              <mxPoint x="660" y="-610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-27" value="Developer merge master branch to jenkin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="-110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-28" target="Kls-efI1VxmwVfYrMtrJ-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-28" value="Developer edit bash script to specify how sync_script will be ran" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="-400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-29" target="Kls-efI1VxmwVfYrMtrJ-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-29" value="Developer trigger Jenkins build to run sync_script" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="-590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-30" target="Kls-efI1VxmwVfYrMtrJ-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-30" value="Sysadmins change alias to track new index according to config_file in jenkin branch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="595" y="-495" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-31" value="Developer merge master branch to live branch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="-400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kls-efI1VxmwVfYrMtrJ-33" target="Kls-efI1VxmwVfYrMtrJ-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-33" value="At this point cron is going to run the new sync_script and use the new config_file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="790" y="-410" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-710" y="-645" width="290" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Git repo branch master" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-710" y="-645" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="sync script" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-687.3600000000001" y="-610.0044871794871" width="244.72" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="config file 1 (periodically)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-687.3600000000001" y="-540.0044871794871" width="244.72" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="config file 2 (new deployment)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-687.3600000000001" y="-470.00448717948717" width="244.72" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="bash_script" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-687.3600000000001" y="-400.00448717948717" width="244.72" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-362" y="-650" width="275" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Kls-efI1VxmwVfYrMtrJ-5" value="Git repo branch &quot;live&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-362" y="-650" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="sync script" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="-346.8600000000001" y="-610.0044871794871" width="244.72" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="config file 1 (periodically)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="-347" y="-540.0044871794871" width="244.72" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="config file 2 (new deployment)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-346.8600000000001" y="-470.00448717948717" width="244.72" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="bash_script" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-346.8600000000001" y="-400.00448717948717" width="244.72" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="20" target="Kls-efI1VxmwVfYrMtrJ-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="&lt;h1&gt;CRON&lt;/h1&gt;&lt;div&gt;- cron is going to track this branch and periodically run the sync script&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="-870" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="23" style="edgeStyle=none;html=1;" parent="1" source="22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="-650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="&lt;h1&gt;OpenSearch&#39;s Devloper&lt;/h1&gt;&lt;div&gt;- OpenSearch&#39;s Developer is going to merge the newly edited sync script to &quot;jenkins&quot; branch and trigger &quot;build&quot; to sync new data to the new index&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="-870" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="25" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="24" target="2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="&lt;h1&gt;Git&#39;s Master branch&lt;/h1&gt;&lt;div&gt;- Git&#39;s Master branch is going to be our storage for sync script, index configuration file and shell script&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Script in this branch is NOT going to be ran by anyone or anything&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-590" y="-910" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="JCuEOALwNfmfZIqpV4wx-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 50px;&quot;&gt;Deprecated&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-790" y="-1070" width="410" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xihCM4wnusQLGO7UBi--25" target="1xihCM4wnusQLGO7UBi--26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--25" value="opensearch developer edit sync script" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xihCM4wnusQLGO7UBi--26" target="1xihCM4wnusQLGO7UBi--63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--26" value="opensearch developer edit index configuration file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--28" value="In personal branch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="250" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xihCM4wnusQLGO7UBi--30" target="1xihCM4wnusQLGO7UBi--31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--30" value="merge personal branch to issue branch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xihCM4wnusQLGO7UBi--31" target="1xihCM4wnusQLGO7UBi--55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--31" value="merge issue to master branch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--35" value="sync script deployment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="930" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xihCM4wnusQLGO7UBi--36" target="1xihCM4wnusQLGO7UBi--37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--36" value="developer push build button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xihCM4wnusQLGO7UBi--37" target="1xihCM4wnusQLGO7UBi--49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--37" value="some service in server run those command" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xihCM4wnusQLGO7UBi--42" target="1xihCM4wnusQLGO7UBi--36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--42" value="developer change branch in jenkins setting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1xihCM4wnusQLGO7UBi--44" target="1xihCM4wnusQLGO7UBi--42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--44" value="This branch contain sync script and index config file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-541" y="970" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--46" value="set cron to track new sync script" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="1290" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1xihCM4wnusQLGO7UBi--47" target="1xihCM4wnusQLGO7UBi--37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--47" value="How to send notification back to developer that sync is success ?&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-541" y="1195" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--49" value="merge deployed branch to live branch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xihCM4wnusQLGO7UBi--50" target="1xihCM4wnusQLGO7UBi--49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--50" value="Is it possible for cron to track this branch? or developer need to use Jenkins to push code in this branch to server too?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-541" y="1325" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--52" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-900" y="1270" as="sourcePoint" />
+            <mxPoint x="-270" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--53" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-900" y="910" as="sourcePoint" />
+            <mxPoint x="-270" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--54" value="sync script development&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="200" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xihCM4wnusQLGO7UBi--55" target="1xihCM4wnusQLGO7UBi--42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--55" value="create release_candidate from mater branch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1xihCM4wnusQLGO7UBi--57" target="1xihCM4wnusQLGO7UBi--36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--57" value="At this point jenkins run rsync command to sync file to server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="1085" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--60" value="service on server side" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--61" value="triggered by changes in specific directory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--62" value="jenkins run&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1xihCM4wnusQLGO7UBi--63" target="1xihCM4wnusQLGO7UBi--30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--63" value="opensearch developer edit command file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xihCM4wnusQLGO7UBi--66" target="1xihCM4wnusQLGO7UBi--63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--66" value="This file contain command to run sync script&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-541" y="500" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xihCM4wnusQLGO7UBi--67" target="1xihCM4wnusQLGO7UBi--63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--67" value="we put command in file instead of put it directly into Jenkins shell script so that we can keep track whats command we&#39;ve ran for each deployment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-541" y="545" width="290" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="1xihCM4wnusQLGO7UBi--70" value="Prove this scenario&lt;br&gt;&lt;br&gt;- we have branch release_candidate_1 and release_candidate_2&lt;br&gt;- we set jenkins to track branch release_candidate_1&lt;br&gt;- we change command file to run script in release_candidate_1&lt;br&gt;- we use jenkins to run rsync command to sync release_candidate_1 to server&lt;br&gt;- service on server run command in command file&lt;br&gt;- this command take long time to run&lt;br&gt;&lt;br&gt;--------------------------------------------------------------------------&lt;br&gt;&lt;br&gt;- we set jenkins to track branch release_candidate_2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- we change command file to run script in release_candidate_2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- we use jenkins to run rsync command to sync release_candidate_2 to server&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- service on server run command in command file&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;--------------------------------------------------------------------------&lt;br&gt;&lt;br&gt;if command for release_candidate_1 is not finish, then what will happened?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="250" width="340" height="520" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
