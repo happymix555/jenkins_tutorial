@@ -29,9 +29,6 @@ previousLoopTimeSec = time.time()
 # loop counter
 loopCounterInt = 0
 
-myList = []
-print( myList[ 1 ] )
-
 # loop forever
 while True:
 
@@ -39,7 +36,7 @@ while True:
 	if time.time() - previousLoopTimeSec >= 1:
 
 		# reach designed number of loop
-		if loopCounterInt == 5:
+		if loopCounterInt == 2:
 
 			# exit loop
 			break
