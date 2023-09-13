@@ -2,6 +2,9 @@
 
 # This is a Bash script to run a Python script.
 
+# show user who is execute this script
+echo "$0 is executed by $(whoami)"
+
 # path to python scritp
 SyncScriptFilePath="sync_script.py"
 

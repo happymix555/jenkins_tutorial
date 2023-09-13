@@ -1,5 +1,9 @@
 import argparse
 import time
+import getpass
+
+# show user who is execute this script
+print( 'This python script is executed by : {}'.format( getpass.getuser() ) )
 
 # program description
 ProgramDescriptionStr = 'This script is used in production'
